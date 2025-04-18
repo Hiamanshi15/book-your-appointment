@@ -1,0 +1,28 @@
+.footer-main{
+    background: linear-gradient(to bottom right, blue, pink);
+    color: #fff;
+}
+
+@media (min-width: 992px) {
+    .justify-content-lg-between {
+        justify-content: center !important;
+    }
+}
+
+.p-4 {
+    padding: 0rem !important;
+}
+
+
+.text-reset {
+    text-decoration: none;
+    word-wrap: break-word;
+}
+
+.footer-top {
+    padding-top: 50px;
+}
+
+.justify-content-center {
+    justify-content: left !important;
+}
