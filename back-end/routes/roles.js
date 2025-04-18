@@ -1,6 +1,6 @@
 // routes/roles.js
 const express = require("express");
-const Role = require("../model/Role"); 
+const Role = require("../model/role"); 
 
 const router = express.Router();
 
