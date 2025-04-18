@@ -5,7 +5,7 @@ const User = require('../model/User');  // Import User model
 const router = express.Router();
 
 // Create an appointment
-const Role = require('../model/Role'); // Make sure you import the Role model
+const Role = require('../model/role'); // Make sure you import the Role model
 
 router.post('/book', async (req, res) => {
   try {
