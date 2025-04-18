@@ -1,0 +1,167 @@
+.appointments-container {
+    padding: 20px;
+    background-color: #f4f7fc;
+    border-radius: 10px;
+    margin-top: 20px;
+  }
+  
+  .appointments-table {
+    width: 100%;
+    overflow-x: auto;
+    margin-top: 20px;
+  }
+  
+  .appointments-table table {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .appointments-table th,
+  .appointments-table td {
+    padding: 12px 20px;
+    text-align: left;
+    border-bottom: 1px solid #e0e0e0;
+    font-size: 14px;
+  }
+  
+  .appointments-table th {
+    background-color: #4CAF50;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .appointments-table tr:nth-child(even) {
+    background-color: #f9f9f9;
+  }
+  
+  .appointments-table tr:hover {
+    background-color: #f1f1f1;
+  }
+  
+  .appointments-table td {
+    color: #333;
+  }
+  
+  .appointments-table .pending {
+    background-color: #fff3cd;
+  }
+  
+  .appointments-table .completed {
+    background-color: #d4edda;
+  }
+  
+  .appointments-table .cancelled {
+    background-color: #f8d7da;
+  }
+  
+  .appointments-table select {
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 14px;
+    background-color: #fff;
+    cursor: pointer;
+  }
+  
+  .appointments-table select:focus {
+    outline: none;
+    border-color: #4CAF50;
+  }
+  
+  .appointments-table td,
+  .appointments-table th {
+    font-size: 16px;
+  }
+  
+  .appointments-table .status-column {
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .appointments-table table {
+      font-size: 12px;
+    }
+    .appointments-table th, .appointments-table td {
+      padding: 8px;
+    }
+    .appointments-table select {
+      padding: 4px 8px;
+    }
+  }
+  
+
+  .edit-btn,
+.delete-btn {
+  padding: 5px 10px;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+
+.delete-btn {
+  background-color: #f44336;
+  color: white;
+}
+
+
+.dash-btn-style {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-btn-style button{
+  height: fit-content;
+}
+
+/* src/AuthPage.css */
+.auth-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background: #f0f2f5;
+}
+
+.auth-form {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 8px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.auth-form h2 {
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.auth-form input {
+  width: -webkit-fill-available;
+  padding: 0.75rem;
+  margin-bottom: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+.auth-form button {
+  width: 100%;
+  padding: 0.75rem;
+  background: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+}
+
+.auth-form .toggle-link {
+  margin-top: 1rem;
+  text-align: center;
+  color: #007bff;
+  cursor: pointer;
+}
