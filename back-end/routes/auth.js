@@ -3,7 +3,7 @@ const express = require("express");
 const bcrypt = require("bcryptjs");
 const jwt = require("jsonwebtoken");
 const User = require("../model/User");
-const Role = require("../model/Role"); // Import the Role model
+const Role = require("../model/role"); 
 
 const router = express.Router();
 
